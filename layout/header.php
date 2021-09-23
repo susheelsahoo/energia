@@ -7,18 +7,14 @@ $address = 'B-87, 2nd Floor, Sector 60, Noida, Pincode 201301, G.B.Nagar (U.P) I
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
-
-<!-- Mirrored from demo.zytheme.com/energia/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 17:16:05 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="Ayman Fikry" />
+    <meta name="author" content="Susheel Sahoo" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Multi-purpose energy html5 template" />
-    <title>Home Main - Energia Responsive Bootstrap 5 energy HTML5 Template</title>
+    <meta name="description" content="Merphy Energy, Noida" />
+    <title>Home -Merphy Energy, Noida</title>
     <link href="assets/images/favicon/favicon.png" rel="icon" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com/" />
@@ -44,7 +40,7 @@ $address = 'B-87, 2nd Floor, Sector 60, Noida, Pincode 201301, G.B.Nagar (U.P) I
                     <div class="top-contact">
                         <div class="contact-infos"><i class="energia-phone-Icon"></i>
                             <div class="contact-body">
-                                <p>phone: <a href="tel:<?= $tollfree ?>"><?= $tollfree ?></a></p>
+                                <p>TollFree: <a href="tel:<?= $tollfree ?>"><?= $tollfree ?></a></p>
                             </div>
                         </div>
                         <div class="contact-infos"><i class="energia-email--icon"></i>
@@ -74,9 +70,9 @@ $address = 'B-87, 2nd Floor, Sector 60, Noida, Pincode 201301, G.B.Nagar (U.P) I
                 </div>
             </div>
             <nav class="navbar navbar-expand-lg navbar-sticky" id="primary-menu"><a class="navbar-brand"
-                    href="index.html"><img class="logo logo-dark" src="assets/images/logo/logo-dark.png"
-                        alt="Energia Logo" /><img class="logo logo-mobile" src="assets/images/logo/logo-mobile.png"
-                        alt="Energia Logo" /></a>
+                    href="index.html"><img class="logo logo-dark" src="assets/images/logo/logo-dark.jpeg"
+                        alt="Merphy Energy Logo" /><img class="logo logo-mobile" src="assets/images/logo/logo-mobile.jpeg"
+                        alt="Merphy Energy Logo" /></a>
                 <div class="module-holder module-holder-phone">
                     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
@@ -85,33 +81,30 @@ $address = 'B-87, 2nd Floor, Sector 60, Noida, Pincode 201301, G.B.Nagar (U.P) I
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item" id="Home" data-hover=""><a href="index.php"><span>Home</span></a></li>
-                        <li class="nav-item has-dropdown" data-hover=""><a class="dropdown-toggle" href="#"
-                                data-toggle="dropdown"><span>company</span></a>
+                        <li class="nav-item" id="about" data-hover=""><a href="about-us.php"><span>about us</span></a></li>
+                        <li class="nav-item has-dropdown" id="departments" data-hover=""><a class="dropdown-toggle"
+                                href="services.php" data-toggle="dropdown"><span>Inverters & Batteries</span></a>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="about-us.php"><span>about us</span></a></li>
-                                <li class="nav-item"><a href="how-works.php"><span>how it works</span></a></li>
+                                <li class="nav-item"><a href="services-turbines.php"><span>High Capacity Inverters</span></a>
+                                </li>
+                                <li class="nav-item"><a href="services-turbines.php"><span>Inverters</span></a>
+                                </li>
+                                <li class="nav-item"><a href="services-turbines.php"><span>Inverter Batteries</span></a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item has-dropdown" id="departments" data-hover=""><a class="dropdown-toggle"
-                                href="services.php" data-toggle="dropdown"><span>services</span></a>
+                                href="services.php" data-toggle="dropdown"><span>SOLAR SOLUTIONS</span></a>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="services-turbines.php"><span>wind generators</span></a>
+                                <li class="nav-item"><a href="services-turbines.php"><span>Solar Panels </span></a>
                                 </li>
-                                <li class="nav-item"><a href="services-turbines.php"><span>solar pv materials</span></a>
+                                <li class="nav-item"><a href="services-turbines.php"><span>Solar Charge Controller </span></a>
                                 </li>
-                                <li class="nav-item"><a href="services-turbines.php"><span>battery materials</span></a>
-                                </li>
-                                <li class="nav-item"><a href="services-turbines.php"><span>hydropower plants</span></a>
-                                </li>
-                                <li class="nav-item"><a href="services-turbines.php"><span>fossil resources</span></a>
-                                </li>
-                                <li class="nav-item"><a href="services-turbines.php"><span>charge
-                                            controllers</span></a></li>
+                                <li class="nav-item"><a href="services-turbines.php"><span>Solar LED Street Light </span></a></li>
+                                <li class="nav-item"><a href="services-turbines.php"><span>Solar Battery </span></a></li>
                             </ul>
                         </li>
-                        <li class="nav-item" id="projects" data-hover=""><a
-                                href="projects.php"><span>projects</span></a>
-                        </li>
+                        
                         <li class="nav-item" id="careers" data-hover=""><a href="careers.php"><span>careers</span></a>
                         </li>
 

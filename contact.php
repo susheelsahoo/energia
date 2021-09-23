@@ -29,9 +29,7 @@
                     </div>
                 </div>
             </div>
-            <iframe
-                src="https://maps.google.com/maps?q=Pioneer%20Works&amp;t=m&amp;z=13&amp;output=embed&amp;iwloc=near"
-                width="600" height="450" style="border:0;"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56046.79308898248!2d77.33073075258137!3d28.60203966437383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce514ba85e10f%3A0xf606330fd60f297d!2ss%20s%20solar%20energy!5e0!3m2!1sen!2sin!4v1632426720126!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
 
         <section class="testimonial testimonial-5 bg-overlay bg-overlay-white2">
@@ -46,24 +44,25 @@
                                     <div class="content-top">
                                         <p>As a world wide distributor of solar supplies we endeavor provide fast and
                                             knowledgeable service, we can get all the materials you need by sea or air.
-                                        </p><a href="page-contact.html"><i class="energia-arrow-right"></i>global office
-                                            map</a>
+                                        </p>
                                     </div>
                                     <div class="content-bottom">
                                         <ul class="list-unstyled contact-infos">
                                             <li class="contact-info"><i class="energia-phone-Icon"></i>
-                                                <p>Emergency Line: <a href="tel:123-456-7890">(002) 01061245741</a></p>
+                                                <p>TollFree: <a href="tel:<?= $tollfree ?>"><?= $tollfree ?></a></p>
                                             </li>
                                             <li class="contact-info"><i class="energia-location-Icon"></i>
-                                                <p>Location: <a
-                                                        href="https://demo.zytheme.com/cdn-cgi/l/email-protection#ed84838b82ad8883889f8a848cc38e8280">Brooklyn,
-                                                        New York, USA </a></p>
+                                                <p>Location:  <?= $address ?></p>
                                             </li>
                                             <li class="contact-info"><i class="energia-clock-Icon"></i>
                                                 <p>Mon - Fri: 8:00 am - 7:00 pm </p>
                                             </li>
-                                        </ul><a class="btn btn--white" href="page-about.html">About us <i
-                                                class="energia-arrow-right"></i></a>
+                                            <li class="contact-info"><i class="energia-email--icon"></i>
+                                                <p> Email US: <a href="mail:<?= $email ?>"><?= $email ?></a></p>
+                                            </li>
+                                        </ul>
+                                        
+                                        
                                     </div>
                                 </div>
                             </div>
